@@ -128,9 +128,8 @@ p {
     padding: 5px;
   }
   .carousel-item {
+    font-size= auto;
     text-align: center;
-    height: 1000px;
-    padding: 15% 5% 0 5%;
   }
   .card-body h2 {
     font-size: 1.5em;
