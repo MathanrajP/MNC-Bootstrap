@@ -127,10 +127,6 @@ p {
     border-radius: 90px;
     padding: 5px;
   }
-  .carousel-inner {
-    background-size: cover;
-    text-align: center;
-  }
   .carousel-item {
     text-align: center;
     height: 1000px;
