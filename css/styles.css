@@ -130,6 +130,7 @@ p {
   .carousel-item {
     text-align: center;
     height: 1000px;
+    padding: 15%;
   }
   .card-body h2 {
     font-size: 1.5em;
