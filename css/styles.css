@@ -1,0 +1,154 @@
+#title {
+  background-color: midnightblue;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.logo {
+  height: 400px;
+  width: 400px;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding: 10% 5%;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  padding: 10% 15% 3% 15%;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+h5 {
+  font-family: 'Montserrat-light', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+}
+p {
+  font-family: 'Montserrat-light', sans-serif;
+  color: snow;
+}
+/*Navbar*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.nav-item {
+  padding: 0 1.125em;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+  color: white;
+}
+.download-button {
+  margin: 3%;
+}
+.mnc-logo {
+  height: 25em;
+  width: 25em;
+  display: block;
+  background-color: lightcyan;
+  border-radius: 8.125em;
+  padding: 0.3125em;
+}
+#products {
+  background-color: lightcoral;
+}
+.product-logo {
+  height: 15.625em;
+  width: 15.625em;
+  display: block;
+  margin: 1.5625em auto;
+  background-color: lightcyan;
+  border-radius: 6.25em;
+  padding: 0.3125em;
+}
+#products {
+  color: white;
+}
+.products {
+  text-align: center;
+  padding: 0.125em 0.3125em;
+}
+.mnc-logo:hover {
+  box-shadow: 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.3), 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.29);
+}
+.product-logo:hover {
+  box-shadow: 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.3), 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.29);
+}
+/*about us section*/
+#about-us {
+  background-color: crimson;
+  color: white;
+}
+.carousel-item {
+  height: 37.5em;
+  padding: 5%;
+  text-align: center;
+}
+/*join us section*/
+#join-us {
+  background-color: olive;
+  text-align: center;
+  padding: 0 10% 5% 10%;
+}
+.card {
+  margin: 5%;
+}
+.card:hover {
+  box-shadow: 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.3), 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.29);
+}
+/*media querry*/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .mnc-logo {
+    height: 15.625em;
+    width: 15.625em;
+    display: block;
+    margin: 1.5625em auto;
+    background-color: lightcyan;
+    border-radius: 5.625em;
+    padding: 0.3125em;
+  }
+  .carousel-item {
+    height: 43.75em;
+    padding: 6.25em 0 0 0;
+    text-align: center;
+  }
+}
+/*download section*/
+#download {
+  background-color: navy;
+  text-align: center;
+  padding: 10%;
+}
+/*contact us section*/
+#contact-us {
+  background-color: grey;
+  text-align: center;
+  padding: 3%;
+}
+#contact-us p {
+  color: black;
+  padding-top: 0.625em;
+}
+.social-icon {
+  margin: 1.25em 0.625em;
+}
