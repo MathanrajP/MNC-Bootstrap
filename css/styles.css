@@ -48,7 +48,7 @@ p {
   color: white;
 }
 .nav-item {
-  padding: 0 1.125em;
+  padding: 0 18px;
 }
 .nav-link {
   font-size: 1.2rem;
@@ -59,37 +59,37 @@ p {
   margin: 3%;
 }
 .mnc-logo {
-  height: 25em;
-  width: 25em;
+  height: 400px;
+  width: 400px;
   display: block;
   background-color: lightcyan;
-  border-radius: 8.125em;
-  padding: 0.3125em;
+  border-radius: 130px;
+  padding: 5px;
 }
 #products {
   background-color: lightcoral;
 }
 .product-logo {
-  height: 15.625em;
-  width: 15.625em;
+  height: 250px;
+  width: 250px;
   display: block;
-  margin: 1.5625em auto;
+  margin: 25px auto;
   background-color: lightcyan;
-  border-radius: 6.25em;
-  padding: 0.3125em;
+  border-radius: 100px;
+  padding: 5px;
 }
 #products {
   color: white;
 }
 .products {
   text-align: center;
-  padding: 0.125em 0.3125em;
+  padding: 2px 5px;
 }
 .mnc-logo:hover {
-  box-shadow: 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.3), 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.29);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 4px 8px 0 rgba(255, 255, 255, 0.29);
 }
 .product-logo:hover {
-  box-shadow: 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.3), 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.29);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 4px 8px 0 rgba(255, 255, 255, 0.29);
 }
 /*about us section*/
 #about-us {
@@ -97,7 +97,7 @@ p {
   color: white;
 }
 .carousel-item {
-  height: 37.5em;
+  height: 600px;
   padding: 5%;
   text-align: center;
 }
@@ -111,7 +111,7 @@ p {
   margin: 5%;
 }
 .card:hover {
-  box-shadow: 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.3), 0 0.25em 0.50em 0 rgba(255, 255, 255, 0.29);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 4px 8px 0 rgba(255, 255, 255, 0.29);
 }
 /*media querry*/
 @media (max-width: 1028px) {
@@ -119,18 +119,21 @@ p {
     text-align: center;
   }
   .mnc-logo {
-    height: 15.625em;
-    width: 15.625em;
+    height: 250px;
+    width: 250px;
     display: block;
-    margin: 1.5625em auto;
+    margin: 25px auto;
     background-color: lightcyan;
-    border-radius: 5.625em;
-    padding: 0.3125em;
+    border-radius: 90px;
+    padding: 5px;
   }
   .carousel-item {
-    height: 43.75em;
-    padding: 6.25em 0 0 0;
+    height: 700px;
+    padding: 100px 0 0 0;
     text-align: center;
+  }
+  .card-body h2 {
+    font-size: 1.5em;
   }
 }
 /*download section*/
@@ -147,8 +150,8 @@ p {
 }
 #contact-us p {
   color: black;
-  padding-top: 0.625em;
+  padding-top: 10px;
 }
 .social-icon {
-  margin: 1.25em 0.625em;
+  margin: 20px 10px;
 }
