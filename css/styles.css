@@ -127,11 +127,6 @@ p {
     border-radius: 90px;
     padding: 5px;
   }
-  .carousel-item {
-    height: 1000px;
-    text-align: center;
-    padding: 5% 3% 0 3%;
-  }
   .card-body h2 {
     font-size: 1.5em;
   }
