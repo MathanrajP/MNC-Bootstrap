@@ -127,9 +127,13 @@ p {
     border-radius: 90px;
     padding: 5px;
   }
+  #carouselExampleSlidesOnly {
+    height: 650px;
+    text-align: center;
+    padding-top: 10%;
+  }
   .carousel-item h2 {
     font-size: 1.5rem;
-    text-align: center;
   }
   .card-body h2 {
     font-size: 1.5em;
